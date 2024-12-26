@@ -1,6 +1,6 @@
 const express = require('express');
 const fsPromises = require('fs').promises;
-const path = require('path');
+const path = require('path')
 
 const usersDB = {
     users: require('../model/users.json'),
